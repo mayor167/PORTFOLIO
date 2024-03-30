@@ -162,7 +162,7 @@ span{
 .column2{
     flex:1;
     padding: 10px;
-    background-image: url("/img/mypic.jpg");
+    background-image: url('/img/mypic.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
