@@ -161,11 +161,11 @@ span{
 
 .column2{
     flex:1;
-    padding: 10px;
     background-image: url('/img/mypic1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
+    padding: 10px;
     width: 100vw;
     height: calc(100vh - 20px); 
 }
