@@ -1,0 +1,19 @@
+/*MY CODE FOR ABOUT ME PAGE*/
+.aboutme{
+    display: flex;
+    width: 100%;
+}
+.aboutme-column1{
+    flex: 1;
+    border: 3px solid #cccccc;
+}
+.aboutme-column2{
+    flex: 1;
+    border: 3px solid #cccccc;
+}
+.aboutme-column3{
+    flex: 1;
+    border: 3px solid #cccccc;
+}
+
+/*ABOUT ME PAGE ENDS HERE*/
