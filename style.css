@@ -217,6 +217,32 @@ span{
     flex: 9;
     border: 3px solid #cccccc;
 }
+.aboutme-column2 .column2-wrapper{
+    margin:40px 20px 40px 60px;
+    border: 3px solid #000;
+    height: 550px;
+}
+.div-h1{
+    height: 50px;
+    border: 1px solid #cccccc;
+}
+.div-h1 h1{
+    text-align: center;
+    padding-top: 5px;
+    font-size: 40px;
+    font-family: "Roboto" sans-serif;
+    font-weight: 700;
+}
+.column2-wrapper p{
+    font-size: 20px;
+    padding-top: 20px;
+}
+.aboutme-column2 .myinfo{
+    line-height: 25px;
+    font-size: 15px;
+    font-family: "Roboto" sans-serif;
+}
+
 .aboutme-column3{
     flex: 1;
     border: 3px solid #cccccc;
