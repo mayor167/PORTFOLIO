@@ -173,7 +173,7 @@ span{
     display: flex;
     flex-direction: column;
     background-color:#ffcc00;
-    width: fit-content;
+    
     height: 50vh;
     margin-top: 25vh;
     margin-right: 10px;  
