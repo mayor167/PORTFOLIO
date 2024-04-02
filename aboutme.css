@@ -105,7 +105,7 @@ body{
 
 .aboutme{
     display: flex;
-    height: calc(100vh);
+    height: 100vh;
     background-color: #cccccc;
 }
 .aboutme-column1{
