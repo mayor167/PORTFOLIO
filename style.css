@@ -161,12 +161,13 @@ span{
 
 .column2{
     flex:1;
-    background-image: url('mypic.png');
+    background-image: url('mypic.jpg');
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     background-position:center;
     padding: 10px;
-    height: calc(100vh - 20px);
+    width: 100vw;
+    height: calc(100vh - 20px); 
 }
 .column2 .social-handles{
     display: flex;
