@@ -1,0 +1,194 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+/*MY CODE FOR HOME PAGE*/
+.home{
+    display: flex;
+    width: 100%;
+}
+.column1{
+    flex:1;
+    padding-left: 100px;
+    margin:auto;
+}
+.column1 h2{
+    padding-bottom:15px;
+    font-family: "Roboto" sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+.column1 h1{
+    padding-bottom: 5px;
+    font-size: 60px;
+    font-weight: 600;
+    font-family: "Roboto" sans-serif;   
+}
+span{
+    color:wheat; 
+    text-shadow: 
+      -1px -1px 0 #ffcc00,  
+      1px -1px 0 #ffcc00,
+      -1px 1px 0 #ffcc00,
+      1px 1px 0 #ffcc00;
+}
+.column1 .other-names{
+    background-color: #ffcc00;
+    padding-bottom: 20px;
+    width: fit-content;
+    font-size: 15px;
+    font-family: "Roboto" sans-serif; 
+    padding: 5px 0px;
+    border-radius: 6px;
+}
+.column1 .p-article{
+    line-height: 30px;
+    font-size: 15px;
+    font-family: "Roboto" sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    padding-top:20px;
+    padding-bottom:20px
+}
+.column1 .div-button{
+    background-color: #ffcc00;
+    width:fit-content;
+   padding: 10px;
+   border-radius: 15px;
+   color: white;
+   font-size: 15px;
+   font-family: "Roboto" sans-serif;
+   font-weight: bold;
+   text-shadow: 2px 2px 8px rgba(0,0,0,0.5); 
+}
+.div-button a{
+    text-decoration: none;
+    color:#000;
+}
+.div-button a :hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.column2{
+    flex:1;
+    background-image: url('mypic.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    padding: 10px;
+    height: calc(100vh - 20px);
+}
+.column2 .social-handles{
+    display: flex;
+    flex-direction: column;
+    background-color:#ffcc00;
+    
+    height: 50vh;
+    margin-top: 25vh;
+    margin-right: 10px;  
+    float: right;
+    padding-right: 10px;
+    border-radius: 20px;
+}
+.social-handles img,.icons{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.social-handles .icons :hover{
+    fill: #fff;
+}
+.icon :hover{
+        color: white;
+}
+
+

@@ -1,0 +1,286 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*My code*/
+/*MY HOME ENDS HERE*/
+
+/*MY CODE FOR ABOUT ME PAGE*/
+
+
+.aboutme{
+    display: flex;
+    height: 100vh;
+    background-color: #cccccc;
+}
+.aboutme-column1{
+    flex: 1;
+    text-align: center;
+}
+.aboutme-column1 .mypic{
+    width: 222px;
+    height: 200px;
+}
+.aboutme-column1 img{
+    width: 222px;
+    height: 200px;
+}
+.aboutme-column1 .side-menus{   
+    background-color: #ffcc00;
+    height: 338px;
+}
+.aboutme-column1 .side-menus h2{
+    padding: 21px;
+    font-size: 12px;
+    font-family: "Roboto" sans-serif;
+    }
+.aboutme-column2{
+    display: flex;
+    flex: 10;
+}
+.aboutme-column2 .column2-wrapper{
+    margin:10px 20px 40px 60px;
+}
+.div-h1{
+    height: 50px;
+    border: 1px solid #000;
+}
+.div-h1 h1{
+    text-align: center;
+    padding-top: 5px;
+    font-size: 40px;
+    font-family: "Roboto" sans-serif;
+    font-weight: 700;
+}
+.column2-wrapper p{
+    font-size: 20px;
+    padding-top: 20px;
+}
+.aboutme-column2 .myinfo{
+    line-height: 25px;
+    font-size: 15px;
+    font-family: "Roboto" sans-serif;
+    padding-bottom: 20px;
+}
+.div-success{
+    display: flex;
+    height: 180px;
+}
+.left-div{
+    flex: 6;
+}
+.left-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 400px; 
+    height: 214px;
+    padding: 10px;
+    background-color: #000;
+}
+.item1{
+    width: calc(50% - 10px);
+    height: calc(50% - 20px);
+    margin-bottom: 20px;
+    margin: auto 0%;
+    
+    
+}
+.item1 p{
+padding-top: 25px;
+}
+.item1 h1{
+    padding-top: 12px;
+}
+.item2{
+    width: calc(50% - 10px);
+    height: calc(50% - 20px);
+    margin-bottom: 20px;
+    margin: auto 0%;
+    border-bottom: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+    border-radius: 5px;
+    padding-left: 19px;
+    padding-top: 30px;
+    border-radius: 5px;
+}
+.item3{
+    width: calc(50% - 10px);
+    height: calc(50% - 20px);
+    margin-bottom: 20px;
+    margin: auto 0%;  
+    border-right: 1px solid #cccccc;  
+    border-top: 1px solid #cccccc;  
+    border-radius: 5px;
+    padding-top: 30px;
+
+}
+.item3 h1{
+    padding-top: 0px;
+}
+.item3 p{
+    padding-top: 7px;
+}
+.item4{
+    width: calc(50% - 10px);
+    height: calc(50% - 20px);
+    margin-bottom: 20px;
+    margin: auto 0%; 
+}
+
+.left-container  p{
+    font-family: "Roboto" sans-serif;
+    font-size: 10px;
+    text-align: center;
+    font-weight: 900;
+    color: #fff;
+}
+.left-container  h1{
+    font-family: "Roboto" sans-serif;
+    text-align: center;
+    font-size: 25px;
+    color: #ffcc00;
+    font-weight:bold;
+}
+
+.right-div{
+    flex: 6;
+}
+.right-div h3{
+    padding-left: 10px;
+}
+.right-container{
+    display: grid;
+    grid-template-columns: 100px 200px;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1px; 
+    height: 153px;
+    margin-left: 10px;
+}
+.right-item{     
+    padding: 10px;
+}
+.right-item p{
+    color: #000;
+    padding-bottom: 0%;
+    font-size: 11px;
+    padding-top: 5px;
+}
+
+.aboutme-column3{
+    flex: 1;
+}
+.aboutme-column3 .social-handles{
+    display: flex;
+    flex-direction: column;
+    background-color:#ffcc00;
+    height: 50vh;
+    margin-top: 25vh;
+    margin-right: 20px;  
+    float: right;
+    padding-right: 10px;
+    border-radius: 20px;
+}
+.social-handles img,.icons{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.social-handles .icons :hover{
+    fill: #fff;
+}
+.icon :hover{
+        color: white;
+}
+
+
+/*ABOUT ME PAGE ENDS HERE*/
